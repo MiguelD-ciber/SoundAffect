@@ -12,7 +12,7 @@ from datetime import datetime
 # ------------------- Configurações / Paths -------------------
 SAVE_FOLDER_NAME = "SavesFolder"
 BASE_WORLD_FOLDER = "BaseWorldDirectores"
-STATISTICS_FILE_PATH = os.path.join("Player", "statistics.json")
+STATISTICS_FILE_PATH = os.path.join('Player', 'statistics.json')
 CLASSES_FILE_NAME = "classes.json"
 SUCCESS_SOUND_FILE = os.path.join('assets', 'menu', 'save_success.wav')
 SEED_FILE_NAME = "seed.json"
@@ -809,3 +809,4 @@ def main():
 if __name__ == '__main__':
 
     main()
+
