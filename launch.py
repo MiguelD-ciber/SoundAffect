@@ -8,7 +8,7 @@ import sys
 import time
 
 # --- Configurações ---
-IMAGE_PATH = os.join('assets', 'menu', 'dragonpulse.png')  # Nome da imagem
+IMAGE_PATH = os.path.join('assets', 'menu', 'dragonpulse.png')  # Nome da imagem
 SEGUNDO_SCRIPT_PATH = "mainscript.py" # Caminho para o script principal
 SOUND_PATH = "dragonpulse.wav"  # Caminho para o arquivo de som
 FADE_DURATION = 2000  # Duração do fade-in e fade-out em milissegundos (2 segundos)
@@ -158,3 +158,4 @@ if __name__ == "__main__":
     if app.running:
 
         app.run()
+
