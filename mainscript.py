@@ -14,16 +14,14 @@ SAVE_FOLDER_NAME = "SavesFolder"
 BASE_WORLD_FOLDER = "BaseWorldDirectores"
 STATISTICS_FILE_PATH = os.path.join("Player", "statistics.json")
 CLASSES_FILE_NAME = "classes.json"
-SUCCESS_SOUND_FILE = "save_success.wav"
+SUCCESS_SOUND_FILE = os.path.join('assets', 'menu', 'save_success.wav')
 SEED_FILE_NAME = "seed.json"
-CLASS_IMAGE_FOLDER = "classes" # Pasta onde estão as imagens das classes
 
 # Recursos de mídia (podem faltar; temos fallback)
-BACKGROUND_IMAGE_FILE = "menu_bg.png"
-MUSIC_FILE = "menu_music.wav"
-LOGO_FILE = "game_logo.png"
-### ATUALIZAÇÃO: Adiciona o arquivo de som para hover (presumindo que exista)
-HOVER_SOUND_FILE = "bubble_pop.mp3" 
+BACKGROUND_IMAGE_FILE = os.path.join('assets', 'menu', 'menu_bg.png')
+MUSIC_FILE = os.path.join('assets', 'menu', 'menu_music.wav')
+LOGO_FILE = os.path.join('assets', 'menu', 'game_logo.png')
+HOVER_SOUND_FILE = os.path.join('assets', 'menu', 'bubble_pop.mp3')
 
 
 # ------------------- Visual -------------------
@@ -809,4 +807,5 @@ def main():
         relogio.tick(30)
 
 if __name__ == '__main__':
+
     main()
