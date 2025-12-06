@@ -1,3 +1,0 @@
-cd E:\SoundAffect
-E:
-venv\Scripts\activate
