@@ -1,0 +1,54 @@
+{
+    "Classes": [
+        {
+            "Classe": "Humano",
+            "Subclasse": [
+                {"Nome": "Humano", "Descricao": "Versátil e compatível com qualquer tecnologia."},
+                {"Nome": "Guerreiro Adaptável", "Descricao": "Usa armas de diferentes épocas no mesmo combo."},
+                {"Nome": "Prodigy", "Descricao": "Domina armas, magias e dispositivos temporais."}
+            ]
+        },
+        {
+            "Classe": "Gato",
+            "Subclasse": [
+                {"Nome": "Gato", "Descricao": "Criatura temporalmente instável."},
+                {"Nome": "Felino Sombrio", "Descricao": "Entra em Sombra Temporal, ficando invisível."},
+                {"Nome": "Espírito Felino", "Descricao": "Move-se entre micro-distorções do tempo."}
+            ]
+        },
+        {
+            "Classe": "Tank",
+            "Subclasse": [
+                {"Nome": "Fisiculturista", "Descricao": "Corpo resistente ao desgaste causado por viagens temporais."},
+                {"Nome": "Juggernaut", "Descricao": "Canaliza energia temporal para ampliar força física."},
+                {"Nome": "Colosso de Guerra", "Descricao": "Impactos criam ondas temporais de choque."}
+            ]
+        },
+        {
+            "Classe": "Mago",
+            "Subclasse": [
+                {"Nome": "Mago", "Descricao": "Manipula energia temporal básica."},
+                {"Nome": "Arquimago", "Descricao": "Combina elementos com distorção temporal."},
+                {"Nome": "Necromante", "Descricao": "Evoca mortos que existiram em outras eras."}
+            ]
+        },
+        {
+            "Classe": "Druida",
+            "Subclasse": [
+                {"Nome": "Mago Druida", "Descricao": "Controla a natureza em diferentes épocas."},
+                {"Nome": "Guardião da Floresta", "Descricao": "Invoca criaturas pré-históricas."},
+                {"Nome": "Avatar Natural", "Descricao": "Transforma-se em uma árvore-titã ancestral."}
+            ]
+        }
+    ],
+
+    "MagiasUniversais": {
+        "Fogo Temporal": ["Bola de Fogo Retrô", "Chama Deslocada", "Explosão Ígnea Temporal", "Armadura Flamejante do Futuro"],
+        "Gelo Temporal": ["Lança de Gelo Congelado no Tempo", "Estase Gelada", "Névoa do Passado", "Parede de Gelo Estático"],
+        "Eletricidade Temporal": ["Choque Acelerado", "Corrente de Dupla Era", "Tempestade Intertemporal", "Supercarga Futurística"],
+        "Natural Temporal": ["Cura de Linha Alternativa", "Raízes que Atravessam Eras", "Terreno Reescrito", "Bênção Cíclica"],
+        "Sombrio Temporal": ["Dreno de Vida Retroativo", "Explosão Sombria Divergente", "Pacto Paradoxal", "Decomposição Temporal"],
+        "Arcano Temporal": ["Projétil Mágico Estável", "Barreira Crono-Arcana", "Teleporte Temporal Curto", "Sobrecarga Arcana"],
+        "Vento Temporal": ["Rajada de Vento Acelerada", "Lâmina Aérea Retrógrada", "Turbilhão Deslocado", "Passo Leve do Futuro"]
+    }
+}
